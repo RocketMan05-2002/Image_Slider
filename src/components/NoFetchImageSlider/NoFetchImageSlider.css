@@ -1,0 +1,39 @@
+.main-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 300px;
+    background-color: black;
+}
+.arrow{
+    position: absolute;
+    height: 2rem;
+    width: 2rem;
+    color: white;
+    filter: drop-shadow(0px 0px 5px #555);
+}
+.arrow-left{
+    left: 0rem;
+}
+.arrow-right{
+    right: 0rem;
+}
+.current-image{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 0px 50px rgb(62, 62, 79);
+    border-radius: 0.5rem;
+    background-color: black;
+    padding: 30px;
+}
+.hide-current-image{
+    display: none;
+}

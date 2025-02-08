@@ -37,3 +37,22 @@
 .hide-current-image{
     display: none;
 }
+.circle-indicators{
+    display: flex;
+    gap: 5px;
+    position: absolute;
+    bottom: 1rem;
+}
+.current-indicator{
+    background-color: white;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    margin: 0 0.2rem;
+    cursor: pointer;
+}
+.inactive-indicator{
+    background-color: gray;
+}
